@@ -481,6 +481,8 @@ body {
     box-sizing: border-box;
     backface-visibility: hidden;
     display: flex;
+    justify-content: center;
+    align-content: center   ;
     flex-direction: column;
     min-height: 300px;
     height: auto;
@@ -491,7 +493,7 @@ body {
 
 .card-flip-text {
     display: flex;
-    font-size: 1vw;
+    font-size: 1.2vw;
     min-height: 30%;
 }
 
