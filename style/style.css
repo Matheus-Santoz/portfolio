@@ -171,6 +171,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 90%;
+    padding: 0% 20%;
 }
 
 .home-intro {
@@ -629,6 +630,18 @@ body {
     color: #000000;
 }
 
+@media (max-width: 1168px) {
+    .project-item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+
+    .content-section section .init-text {
+        padding:0%;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         display: none;
@@ -637,13 +650,13 @@ body {
 
     .contact-link {
         width: 80%;
-        font-size: 1.3em;
+        font-size: 1.1em;
         justify-content: center;
         text-align: center;
     }
 
     .contact-item {
-        width: 100vw;
+        width: 95vw;
         margin-bottom: 2vh;
     }
 
@@ -653,7 +666,7 @@ body {
         border-radius: 50%;
         box-shadow: #00000033 0px 0px 15px;
         color: #b55bff;
-        font-size: 2vh;
+        font-size: 3vh;
         margin-right: 0.8vw;
     }
 
@@ -684,19 +697,14 @@ body {
     }
 
     .card-flip-link {
-        padding: 1vh;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(0, 0, 0);
-        overflow: hidden;
-        text-decoration: none;
-        background-color: rgb(255, 255, 255);
-        font-weight: bold;
         font-size: 4vw;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s ease;
+    }
+
+    .init {
+        margin-top: 0vh;
+    }
+
+    .footer-container {
+        height: 15vh;
     }
 }
