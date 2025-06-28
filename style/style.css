@@ -100,14 +100,14 @@ body {
 
 .toggle-dark-light {
     position: absolute;
-    bottom: 15px;
     right: 15px;
+    bottom: 15px;
     background-color: #e7e7e7;
     color: #000000;
     padding: 10px 20px;
     cursor: pointer;
-    position: fixed;
     z-index: 1;
+    position: fixed;
     border-radius: 10px;
 }
 
@@ -412,7 +412,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 33%;
-    height: 300px;
+    min-height: 350px;
     perspective: 1000px;
     padding: 1%;
     position: relative;
@@ -632,22 +632,16 @@ body {
 
 @media (max-width: 1068px) {
 
-    .toggle-dark-light {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        background-color: #e7e7e7;
-        color: #000000;
-        padding: 10px 20px;
-        font-size: 2.7vh;
-        cursor: pointer;
-        position: fixed;
-        z-index: 1;
-        border-radius: 10px;
-    }
-
     .header {
         display: none;
+    }
+
+    .toggle-dark-light {
+        right: 15px;
+        top: 15px;
+        bottom: 93%;
+        font-size: 3vh;
+
     }
 
     .project-item {
