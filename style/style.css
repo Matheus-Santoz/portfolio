@@ -464,7 +464,8 @@ body {
 
 .card-flip-text {
     display: flex;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    max-height: 40%;
 }
 
 .card-flip-tags {
@@ -474,6 +475,7 @@ body {
     scrollbar-width: none;
     gap: 1%;
     margin-top: 10px;
+    max-height: 40%;
 }
 
 .container-tag {
@@ -639,7 +641,7 @@ body {
     .toggle-dark-light {
         right: 15px;
         top: 15px;
-        bottom: 93%;
+        bottom: 92%;
         font-size: 3vh;
 
     }
