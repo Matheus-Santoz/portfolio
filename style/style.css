@@ -634,7 +634,7 @@ body {
 
     .toggle-dark-light {
         position: absolute;
-        bottom: 15px;
+        top: 15px;
         right: 15px;
         background-color: #e7e7e7;
         color: #000000;
