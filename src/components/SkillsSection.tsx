@@ -2,16 +2,14 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const skills = [
+  { name: "PHP", desc: "É a minha linguagem de principal uso no back-end. Tenho familiaridade com seus recursos e busco me aprofundar cada vez mais." },
+  { name: "Laravel", desc: "É o framework que mais utilizo para desenvolvimento web. Trabalho com controllers, models, migrations e toda a estrutura MVC." },
   { name: "HTML", desc: "Foi o primeiro conceito que aprendi nessa trajetória e um dos que mais reforço. Considero como um arroz e feijão, ando sempre estudando e praticando." },
   { name: "CSS", desc: "Reforço tanto quanto o HTML, busco sempre aprender mais sobre suas propriedades para ter o layout responsivo da maneira mais limpa possível." },
   { name: "JavaScript", desc: "Uso JavaScript para adicionar interatividade aos meus projetos, tornando-os mais dinâmicos e animados." },
   { name: "Python", desc: "Usei Python durante meu curso técnico, principalmente para automação de tarefas e desenvolvimento de scripts simples." },
-  { name: "PHP", desc: "Usei PHP para fazer o back-end do meu TCC, incluindo sistemas de login, cadastro, autenticação, estoque e sistema de pagamento." },
-  { name: "Laravel", desc: "Foi o framework que utilizei para o desenvolvimento do meu TCC na ETEC, controllers, models e migrations." },
   { name: "Git", desc: "Usei o Git para facilitar o versionamento dos meus projetos, o que me ajudou a evitar problemas com versões." },
   { name: "MySQL", desc: "Utilizei durante os 3 anos do meu curso técnico para armazenar e manejar dados de forma eficiente em projetos pessoais e acadêmicos." },
-  { name: "VBA", desc: "Estou aprendendo a dominar essa linguagem no tecnólogo. Muito útil para automatizar tarefas no Excel e Word." },
-  { name: "Design", desc: "Busco sempre aprender mais, tanto para melhorar a usabilidade dos meus projetos quanto para criar layouts satisfatórios." },
 ];
 
 const SkillsSection = () => {

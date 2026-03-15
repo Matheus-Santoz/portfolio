@@ -1,9 +1,9 @@
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Download } from "lucide-react";
+import matheusPhoto from "@/assets/matheus-photo.png";
 
 const HeroSection = () => {
   return (
     <section id="apresentacao" className="min-h-screen flex items-center section-container pt-28 relative overflow-hidden">
-      {/* Background decorative element */}
       <div className="absolute top-20 right-0 w-[500px] h-[500px] opacity-10">
         <span className="text-[20rem] font-bold text-primary/20 select-none font-display">&lt;/&gt;</span>
       </div>
@@ -15,7 +15,7 @@ const HeroSection = () => {
             Matheus Santos
           </h1>
           <p className="text-xl text-foreground/80 font-body">
-            Sou <span className="text-primary font-semibold">desenvolvedor full-stack</span>
+            Sou <span className="text-primary font-semibold">desenvolvedor full-stack em formação</span>
           </p>
 
           <div className="space-y-3 pt-4">
@@ -33,12 +33,23 @@ const HeroSection = () => {
               <Phone className="w-5 h-5 text-primary" />
               +55 11 95478-2603
             </a>
+            <a
+              href="/Matheus_Santos.pdf"
+              download
+              className="inline-flex items-center gap-3 mt-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+            >
+              <Download className="w-5 h-5" />
+              Baixar currículo
+            </a>
           </div>
         </div>
 
-        {/* Placeholder para foto */}
-        <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-secondary border-2 border-primary/30 flex items-center justify-center">
-          <span className="text-muted-foreground text-sm font-body">Foto placeholder</span>
+        <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-2 border-primary/30">
+          <img
+            src={matheusPhoto}
+            alt="Matheus Santos"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
     </section>
